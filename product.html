@@ -2,335 +2,168 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <title> PRODUCT - NEXTAG</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pushster&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <title>Product</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/product-img.css">
 </head>
 <body>
-<div class="header">
-<div class="contaniner">
-    <div class="navbar">
-        <div class="logo">
-            <a href="index.html"><img src="img/logo.png" width="125px"></a>
-        </div>
-        <nav>
-            <ul id="MenuItems">
-                <li><a href="index.html">Home</a> </li>
-                <li><a href="product.html">Products</a> </li>
-                <li><a href="">About</a> </li>
-                <li><a href="">Contact</a> </li>
-                <li><a href="login.html">Account</a> </li>
-            </ul>
-        </nav>
-        <a href="cart.html"><img src="img/cart.png" width="30px" height="30px"></a>
-        <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
+<nav class="navbar"></nav>
+
+<section class="product-details single-product">
+        <div class="col-2">
+            <img src="img/b1.jpg" width="85%" id="productImg">
+
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="img/b1.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/b2.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/b3.jpg" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="img/b4.jpg" width="100%" class="small-img">
+                </div>
+            </div>
+
     </div>
-</div>
-</div>
+    <section class="details">
+        <h2 class="product-brand">LOUIS VUITTON</h2>
+        <p class="product-short-des">Leather Printed Wallet</p>
+        <td>
+            Mã SP:
+            <span>H123</span>
+        </td>
+        <br>
+        <br>
+        <td>
+            Origin:
+            <span>Pari</span>
+        </td>
+        <br>
+        <br>
+        <td>
+            Price:
+            <span class="product-price">$600</span>
+            <span class="product-actual-price">$800</span>
+            <span class="product-discount">(-25%)</span>
+        </td>
+        <br>
+        <br>
+        <span class="attr-title">Sex:</span>
+        <span class="attr-property">Unisex</span>
+        <br>
+        <br>
+        <span class="attr-title">Color:</span>
+        <span class="attr-property">Black</span>
+        <br>
+        <br>
+        <p class="product-sub-heading">Select size</p>
+
+        <input type="radio" name="size" value="small" checked hidden  id="small">
+        <label for="small" class="size-radio-btn check">small</label>
+        <input type="radio" name="size" value="medium"  hidden   id="medium">
+        <label for="medium" class="size-radio-btn">medium</label>
+        <input type="radio" name="size" value="large"  hidden id="large">
+        <label for="large" class="size-radio-btn ">large</label>
 
 
-<!----------- featured products---------->
-<div class="small-container">
-    <div class="row row-2">
-        <h2>All Products</h2>
-        <select>
-            <option>Default Sorting</option>
-            <option>Sort By Price</option>
-            <option>Sort By Popularity</option>
-            <option>Sort By Rating</option>
-            <option>Sort By Sale</option>
-        </select>
-    </div>
 
-    <div class="row">
-        <div class="col-4">
-            <a href="product-details.html"><img src="img/p1.webp"></a>
-            <a href="product-details.html"> <h4> Gucci Diana zip around wallet</h4></a>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-            </div>
-            <p>$ 795</p>
+        <p class="product-sub-heading"></p>
 
+        <button class="btn ">Add To Cart</button>
+        <button class="btn"> Add To Wishlist</button>
+
+
+    </section>
+</section>
+
+<section class="details-des">
+    <h2 class="heading">Description</h2>
+    <p class="des">Wallet made of high quality leather material, durable during use. The standard wallet form is beautiful, the seams are very delicate and sure to satisfy even fastidious customers.
+
+        The MCM logo on the wallet creates a unique highlight.
+        <br>
+        Dimensions: 19 x 9.5 cm.
+        <br>
+        The wallet is elegantly designed, with a spacious compartment so you can scientifically and logically arrange essential personal items such as cards, papers... when going out.
+
+        With its chic and stylish design, the wallet feels soft and comfortable to the touch. Convenient compact wallet that you can take anywhere. You can make gifts for relatives and friends with this high-end fashion wallet.
+        <br>
+        -12 khe cắm thẻ
+        <br>
+        -2 tay áo hóa đơn
+        <br>
+        -2 khe cắm phụ
+    </p>
+</section>
+<br><br> <br>
+<h2 class="product-category"> Latest Products</h2>
+<div class="product-container">
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="img/h1.jpg" class="product-thumb" alt="">
+            <button class="card-btn">Add To Wishlist</button>
         </div>
-        <div class="col-4">
-            <a href="product-details2.html"><img src="img/p2.webp"></a>
-            <a href="product-details2.html"><h4> Gucci / GG Marmont zip around wallet</h4></a>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <p>$ 1100</p>
+        <div class="product-info">
+            <h2 class="product-brand">LOUIS VUITTON</h2>
+            <p class="product-short-des">Effect Small zip around wallet</p>
+            <span class="price">$300</span>
 
-        </div>
-        <div class="col-4">
-            <img src="img/p3.webp">
-            <h4> Gucci Horsebit 1955 card case wallet</h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star "></span>
-                <span class="fa fa-star "></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <p>$ 650</p>
-
-        </div>
-        <div class="col-4">
-            <img src="img/p4.webp">
-            <h4> Gucci Diana python zip around wallet      </h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star "></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <p>$ 1350</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-4">
-            <img src="img/p5.jpeg">
-            <h4> Zippy Wallet </h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star "></span>
-                <span class="fa fa-star "></span>
-            </div>
-            <p>$ 965</p>
-
-        </div>
-        <div class="col-4">
-            <img src="img/p6.jpg">
-            <h4> Card Hoder</h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star "></span>
-                <span class="fa fa-star "></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <p>$ 390</p>
-
-        </div>
-        <div class="col-4">
-            <img src="img/p7.jpg">
-            <h4> Victorine Wallet </h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked "></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <p>$ 570</p>
-
-        </div>
-        <div class="col-4">
-            <img src="img/p8.jpg">
-            <h4> Sarah Wallet </h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked "></span>
-                <span class="fa fa-star checked"></span>
-            </div>
-            <p>$ 830</p>
         </div>
     </div>
-
-
-    <div class="row">
-        <div class="col-4">
-            <img src="img/p9.jpg">
-            <h4> VIRTUS QUILTED MINI BAG</h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star "></span>
-            </div>
-            <p>$ 925</p>
-
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">-19% off</span>
+            <img src="img/h2.jpg" class="product-thumb" alt="">
+            <button class="card-btn">Add To Wishlist</button>
         </div>
-        <div class="col-4">
-            <img src="img/p10.jpg">
-            <h4> LA MEDUSA CONTINENTAL WALLET</h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <p>$ 790</p>
-
+        <div class="product-info">
+            <h2 class="product-brand">LOUIS VUITTON</h2>
+            <p class="product-short-des">The Blend Small Monogram Canvas Wallet</p>
+            <span class="price">$235</span>
+            <span class=" actual-price">$290</span>
         </div>
-        <div class="col-4">
-            <img src="img/p11.jpg">
-            <h4> REGALIA BAROQUE PRINT COUTURE 1 CHAIN WALLET</h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star "></span>
-                <span class="fa fa-star "></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <p>$ 250</p>
-
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag">-12% off</span>
+            <img src="img/h3.jpg" class="product-thumb" alt="">
+            <button class="card-btn">Add To Wishlist</button>
         </div>
-        <div class="col-4">
-            <img src="img/p12.jpg">
-            <h4> LA MEDUSA LEATHER BIFOLD WALLET     </h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked "></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <p>$ 490</p>
+        <div class="product-info">
+            <h2 class="product-brand">LOUIS VUITTON</h2>
+            <p class="product-short-des">Effect Small zip around wallet CK6</p>
+            <span class="price">$720</span>
+            <span class=" actual-price">$900</span>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image">
+            <span class="discount-tag"></span>
+            <img src="img/h12.jpg" class="product-thumb" alt="">
+            <button class="card-btn">Add To Wishlist</button>
+        </div>
+        <div class="product-info">
+            <h2 class="product-brand">LOUIS VUITTON</h2>
+            <p class="product-short-des">Vintage 2004 Wallet</p>
+            <span class="price">$300</span>
+
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-4">
-            <img src="img/p13.jpg">
-            <h4>Wallet on Chain </h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star "></span>
-            </div>
-            <p>$ 1000</p>
-
-        </div>
-        <div class="col-4">
-            <img src="img/p14.jpg">
-            <h4>Classic Small Flap Wallet</h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked "></span>
-                <span class="fa fa-star "></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <p>$ 390</p>
-
-        </div>
-        <div class="col-4">
-            <img src="img/p15.jpg">
-            <h4> Classic Long Zipped Wallet </h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked "></span>
-                <span class="fa fa-star"></span>
-            </div>
-            <p>$ 770</p>
-
-        </div>
-        <div class="col-4">
-            <img src="img/p16.jpg">
-            <h4> Classic Long Flap Wallet</h4>
-            <div class="rating">
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked "></span>
-                <span class="fa fa-star "></span>
-            </div>
-            <p>$ 830</p>
-        </div>
-    </div>
-
-    <div class="page-btn">
-        <span>1</span>
-        <span>2</span>
-        <span>3</span>
-        <span>&#8594</span>
-
-
-
-
-    </div>
 </div>
 
 
 
-
-
-
-<!----------- footer ------------>
-<div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="footer-col-1">
-                <h3>Dowload our app</h3>
-                <p> buy iy</p>
-
-            </div>
-            <div class="footer-col-2">
-                <img src="img/logo.png">
-            </div>
-
-            <div class="footer-col-3">
-                <h3> Need Help?</h3>
-                <ul>
-                    <li>Contact Us</li>
-                    <li>Shipping Services </li>
-                    <li>Product Care</li>
-                    <li>Payment Options</li>
-                    <li>FAQs</li>
-                    <li>Unsubcribe</li>
-                    <!-- 1:03:24 -->
-                </ul>
-            </div>
-
-
-
-
-
-            <div class="footer-col-3">
-                <h3>Follow US</h3>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Instagram </li>
-                    <li>Twitter</li>
-                    <li>Pinterest</li>
-                    <li>You Tube</li>
-                    <li>Skype</li>
-                    <!-- 1:03:24 -->
-                </ul>
-            </div>
-        </div>
-        <hr>
-        <p class="copyright">©Copyright 2022 -  All rights reserved.</p>
-    </div>
-</div>
-
-
-<script src="js/index.js"></script>
-
+<footer></footer>
+<script src="js/nav.js"></script>
+<script src="js/home.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/product.js"></script>
 </body>
 </html>
